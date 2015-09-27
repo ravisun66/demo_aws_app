@@ -1,0 +1,30 @@
+[ 2015-09-27 10:27:08.5606 4365/0x7fff7b884300 age/Wat/WatchdogMain.cpp:1275 ]: Starting Passenger watchdog...
+[ 2015-09-27 10:27:08.6514 4367/0x7fff7b884300 age/Cor/CoreMain.cpp:956 ]: Starting Passenger core...
+[ 2015-09-27 10:27:08.6533 4367/0x7fff7b884300 age/Cor/CoreMain.cpp:233 ]: Passenger core running in multi-application mode.
+[ 2015-09-27 10:27:08.6675 4367/0x7fff7b884300 age/Cor/CoreMain.cpp:706 ]: Passenger core online, PID 4367
+[ 2015-09-27 10:27:08.7193 4369/0x7fff7b884300 age/Ust/UstRouterMain.cpp:503 ]: Starting Passenger UstRouter...
+[ 2015-09-27 10:27:08.7204 4369/0x7fff7b884300 age/Ust/UstRouterMain.cpp:316 ]: Passenger UstRouter online, PID 4369
+App 4381 stdout: 
+App 4395 stdout: 
+App 4408 stdout: 
+
+
+[ 2015-09-27 10:28:19.9079 4369/0x110372000 age/Ust/UstRouterMain.cpp:396 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-09-27 10:28:19.9079 4369/0x7fff7b884300 age/Ust/UstRouterMain.cpp:466 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-09-27 10:28:19.9083 4367/0x102a48000 age/Cor/CoreMain.cpp:506 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ 2015-09-27 10:28:19.9084 4367/0x7fff7b884300 age/Cor/CoreMain.cpp:875 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ 2015-09-27 10:28:19.9191 4369/0x110372000 Ser/Server.h:443 ]: [UstRouter] Shutdown finished
+[ 2015-09-27 10:28:19.9084 4367/0x7fff7b884300 age/Cor/CoreMain.cpp:793 ]: Disconnecting long-running connections for process 4395, application /Users/ravishankarjha/Documents/RailsPrac/2015/passenger-ruby-rails-demo/public (development)
+[ 2015-09-27 10:28:19.9301 4369/0x110478000 Ser/Server.h:757 ]: [UstRouterApiServer] Freed 0 spare client objects
+[ 2015-09-27 10:28:19.9444 4369/0x110478000 Ser/Server.h:443 ]: [UstRouterApiServer] Shutdown finished
+[ 2015-09-27 10:28:19.9450 4369/0x7fff7b884300 age/Ust/UstRouterMain.cpp:497 ]: Passenger UstRouter shutdown finished
+[ 2015-09-27 10:28:19.9743 4367/0x7fff7b884300 age/Cor/CoreMain.cpp:793 ]: Disconnecting long-running connections for process 4408, application /Users/ravishankarjha/Documents/RailsPrac/2015/passenger-ruby-rails-demo/public (development)
+[ 2015-09-27 10:28:19.9875 4367/0x102c54000 Ser/Server.h:757 ]: [ApiServer] Freed 0 spare client objects
+[ 2015-09-27 10:28:19.9875 4367/0x102c54000 Ser/Server.h:443 ]: [ApiServer] Shutdown finished
+[ 2015-09-27 10:28:19.9888 4367/0x102a48000 Ser/Server.h:757 ]: [ServerThr.1] Freed 128 spare client objects
+[ 2015-09-27 10:28:19.9888 4367/0x102b4e000 Ser/Server.h:757 ]: [ServerThr.2] Freed 128 spare client objects
+[ 2015-09-27 10:28:19.9889 4367/0x102a48000 Ser/Server.h:443 ]: [ServerThr.1] Shutdown finished
+[ 2015-09-27 10:28:19.9889 4367/0x102b4e000 Ser/Server.h:443 ]: [ServerThr.2] Shutdown finished
+[ 2015-09-27 10:28:20.0093 4367/0x7fff7b884300 age/Cor/CoreMain.cpp:793 ]: Disconnecting long-running connections for process 4395, application /Users/ravishankarjha/Documents/RailsPrac/2015/passenger-ruby-rails-demo/public (development)
+[ 2015-09-27 10:28:20.0094 4367/0x7fff7b884300 age/Cor/CoreMain.cpp:793 ]: Disconnecting long-running connections for process 4408, application /Users/ravishankarjha/Documents/RailsPrac/2015/passenger-ruby-rails-demo/public (development)
+[ 2015-09-27 10:28:20.4673 4367/0x7fff7b884300 age/Cor/CoreMain.cpp:941 ]: Passenger core shutdown finished

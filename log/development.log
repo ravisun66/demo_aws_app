@@ -1,0 +1,33 @@
+
+
+Started HEAD "/" for 127.0.0.1 at 2015-09-27 10:27:21 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html within layouts/application (1.7ms)
+Completed 200 OK in 1784ms (Views: 1735.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-27 10:27:37 +0530
+Processing by HomeController#index as HTML
+  Rendered home/index.html within layouts/application (0.1ms)
+Completed 200 OK in 49ms (Views: 48.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for 127.0.0.1 at 2015-09-27 10:27:37 +0530
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for 127.0.0.1 at 2015-09-27 10:27:37 +0530
+
+
+Started GET "/assets/home-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for 127.0.0.1 at 2015-09-27 10:27:37 +0530
+
+
+Started GET "/assets/home-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for 127.0.0.1 at 2015-09-27 10:27:37 +0530
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 127.0.0.1 at 2015-09-27 10:27:37 +0530
+
+
+Started GET "/assets/application-0b84e9e08faa1d4a6345678cca2b82bb.css?body=1" for 127.0.0.1 at 2015-09-27 10:27:37 +0530
+
+
+Started GET "/assets/application-12b8f543cd30f7da91cbc02f9924ff5c.js?body=1" for 127.0.0.1 at 2015-09-27 10:27:37 +0530
